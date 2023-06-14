@@ -91,7 +91,7 @@ const Workout = () => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-8">
-      <h1 className="text-4xl">AMSB Agility Drills</h1>
+      <h1 className="text-4xl">Footwork drills</h1>
       <div className="text-9xl leading-normal">{sequence[currentCommand]?.command}</div>
       <div className="text-3xl">
         {formatTime(currentSeconds)} / {formatTime(sequenceDuration)}
